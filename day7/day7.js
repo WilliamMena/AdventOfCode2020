@@ -6,11 +6,13 @@ fs.readFile('./day7_few_input.txt', 'utf8', function (err, data) {
     if (err) {
         return console.log(err);
     }
-    inputs.push(...data.split('\n\n'))
-    console.log(sumOfAnswers(inputs));
+    inputs.push(...data.split('\n'))
+    console.log(howManyColors(inputs, 'shiny gold'));
 });
 
-
+function howManyColors(input, color) {
+    return input;
+}
 
 /*
     Answers
