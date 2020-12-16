@@ -39,7 +39,6 @@ function followSteps(array) {
         } else {
             break;
         }
-        // console.log(acc);
     }
     console.log(array)
     return acc;
